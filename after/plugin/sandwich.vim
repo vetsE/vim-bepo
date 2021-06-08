@@ -200,4 +200,10 @@ let g:sandwich#recipes = [
       \     'input': ['I'],
       \   },
       \ ]
+
+unmap srb
+unmap sdb
+unmap sr
+unmap sd
+unmap sa
 endif
