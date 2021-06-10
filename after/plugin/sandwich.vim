@@ -201,9 +201,9 @@ let g:sandwich#recipes = [
       \   },
       \ ]
 
-unmap srb
-unmap sdb
-unmap sr
-unmap sd
-unmap sa
+silent! unmap srb
+silent! unmap sdb
+silent! unmap sr
+silent! unmap sd
+silent! unmap sa
 endif
