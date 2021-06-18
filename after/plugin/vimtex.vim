@@ -1,4 +1,4 @@
-if exists("g:vimtex_mappings_enabled") && g:vim_tex_mappings_enabled
+if exists("g:vimtex_mappings_enabled") && g:vimtex_mappings_enabled
   execute 'nmap ls$' maparg('cs$', 'n')
   execute 'nmap lsc' maparg('csc', 'n')
   execute 'nmap lsd' maparg('csd', 'n')
