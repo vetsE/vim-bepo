@@ -20,6 +20,18 @@ xmap am <Plug>(textobj-sandwich-literal-query-a)
 omap im <Plug>(textobj-sandwich-literal-query-i)
 omap am <Plug>(textobj-sandwich-literal-query-a)
 
+nmap yç <Plug>(operator-sandwich-add)
+onoremap <SID>line :normal! ^vg_<CR>
+nmap <silent> yçç <Plug>(operator-sandwich-add)<SID>line
+onoremap <SID>gul g_
+nmap yÇ yç<SID>gul
+
+nmap dç <Plug>(operator-sandwich-delete)<Plug>(operator-sandwich-release-count)<Plug>(textobj-sandwich-query-a)
+nmap dçç <Plug>(operator-sandwich-delete)<Plug>(operator-sandwich-release-count)<Plug>(textobj-sandwich-auto-a)
+nmap lç <Plug>(operator-sandwich-replace)<Plug>(operator-sandwich-release-count)<Plug>(textobj-sandwich-query-a)
+nmap lçç <Plug>(operator-sandwich-replace)<Plug>(operator-sandwich-release-count)<Plug>(textobj-sandwich-auto-a)
+
+xmap Ç <Plug>(operator-sandwich-add)
 
 runtime autoload/repeat.vim
 if hasmapto('<Plug>(RepeatDot)')
