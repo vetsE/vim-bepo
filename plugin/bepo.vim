@@ -35,8 +35,8 @@ call s:amap(   'S',  'K'     )    "{HJKL} devient [CTSR]
 call s:amap(   'R',  'L'     )    "{HJKL} devient [CTSR]
 call s:amap(  'gt', 'gj'     )    "on préserve les variantes avec 'g'
 call s:amap(  'gs', 'gk'     )    "on préserve les variantes avec 'g'
-call s:amap(  'zt', 'zj'     )    "on préserve les variantes avec 'z'
-call s:amap(  'zs', 'zk'     )    "on préserve les variantes avec 'z'
+" call s:amap(  'zt', 'zj'     )    "on préserve les variantes avec 'z'
+" call s:amap(  'zs', 'zk'     )    "on préserve les variantes avec 'z'
 call s:amap(   'h',  't'     )    "{t} devient [h] pour être proche de [f]
 call s:amap(   'H',  'T'     )    "idem pour {T} et [H]
 call s:amap(   'l',  'c'     )    "{c} devient [l]
